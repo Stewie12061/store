@@ -31,3 +31,10 @@
 
 en:
   hello: "Hello world"
+  menus: 
+    product: Products
+    about: About Us
+    news: News
+    contact: Contact
+    accessories: Accessories
+    search: Search

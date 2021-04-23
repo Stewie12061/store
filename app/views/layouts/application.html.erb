@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Store</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+<head>
+  <title>Store Online <%= content_for?(:title) ? "-" + yield(:title) : '' %></title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-  <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-    <%= yield %>
-  </body>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+  <%= render 'layouts/partials/notice' %> 
+  
+  
+  <%= render 'layouts/partials/header' %> 
+  <%= yield %>
+  <%= render 'layouts/partials/footer' %> 
+
+
+  
+  <%= render 'layouts/partials/copyright' %> 
+</body>
+
 </html>
