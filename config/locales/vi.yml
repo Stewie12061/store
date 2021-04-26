@@ -31,10 +31,11 @@
 
 vi:
   hello: "Hello world"
-  menus: 
-    product: Sản phẩm
-    about: Giới thiệu
-    news: Tin tức
-    contact: Liên hệ
-    accessories: Phụ kiện
-    search: Tìm kiếm
+  menus:
+      product: Sản Phẩm
+      search: Tìm Kiếm
+      accessorie: Phụ Kiện
+      contact: Liên Hệ
+      introduction: Giới Thiệu
+      news: Tin Tức  
+

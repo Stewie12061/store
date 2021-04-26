@@ -1,0 +1,13 @@
+.auth{
+  background-color: rgba(230, 80, 197, 0.2);
+  &.text{
+    font-weight: bold;
+    font-size: 50px;
+  }
+  &.login{
+    h2{
+      height: 60px;
+    }
+  }
+}
+
