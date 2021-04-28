@@ -9,5 +9,23 @@
       height: 60px;
     }
   }
+  &.signup{
+    h2{
+      height: 60px;
+    }
+  }
 }
 
+  
+.auth2{
+    background-color: rgba(202, 228, 59, 0.3);
+    &.text{
+      font-weight: bold;
+      font-size: 50px;
+    }
+  &.signup{
+    h2{
+      height: 60px;
+    }
+  }
+}

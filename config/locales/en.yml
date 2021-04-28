@@ -38,4 +38,15 @@ en:
     contact: Contact
     introduction: About Us
     news: News 
+    link: Link
+    search: Search
 
+  sessions:
+    signin: Sign In
+    email: Email
+    password: Password
+    login: Login
+    forgotpassword: Forgot your pasword?
+    Signup: Sign Up
+    signup: Sign up
+    sendresetpassword: Send me reset password instructions

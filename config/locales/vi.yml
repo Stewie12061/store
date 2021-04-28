@@ -38,4 +38,15 @@ vi:
       contact: Liên Hệ
       introduction: Giới Thiệu
       news: Tin Tức  
+      link: Liên Kết
+      search: Tìm Kiếm
 
+  sessions:
+    signin: Đăng Nhập
+    email: E-Mail
+    password: Mật Khẩu
+    login: Đăng nhập
+    forgotpassword: Quên mật khẩu?
+    Signup: Đăng Ký
+    signup: Đăng ký
+    sendresetpassword: Gửi hướng dẫn đặt lại mật khẩu
