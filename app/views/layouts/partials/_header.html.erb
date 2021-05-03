@@ -1,23 +1,30 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">StoreOnline</a>
+    
+    <%= link_to 'StoreOnline',root_path, class: "navbar-brand" %>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><%= t('menus.product') %></a>
+          <a class="nav-link active" aria-current="page" href="<%=products_path %>"><%= t('menus.product') %></a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="#"><%= t('menus.accessorie') %></a>
+          <a class="nav-link" href="<%=accessories_path %>"><%= t('menus.accessorie') %></a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="#"><%= t('menus.introduction') %></a>
+          <a class="nav-link" href="<%=about_index_path %>"><%= t('menus.introduction') %></a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="#"><%= t('menus.news') %></a>
+          <a class="nav-link" href="<%=news_index_path %>"><%= t('menus.new') %></a>
         </li>
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           <%= t('menus.link') %>
@@ -29,9 +36,11 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
+
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><%= t('menus.contact') %></a>
         </li>
+
       </ul>
       <form class="d-flex">
         <input class="form-control me-2 w-50" type="Search" placeholder=<%= t('menus.search') %> aria-label="Search">

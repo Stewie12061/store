@@ -1,3 +1,5 @@
+
+
 .auth{
   background-color: rgba(230, 80, 197, 0.2);
   &.text{
@@ -9,11 +11,10 @@
       height: 60px;
     }
   }
-  &.signup{
-    h2{
-      height: 60px;
-    }
-  }
+  height: 318px;
+  width: 682.5px !important;
+  margin-top: -159px !important;
+  margin-left: -341.25px !important;
 }
 
   
@@ -23,9 +24,40 @@
       font-weight: bold;
       font-size: 50px;
     }
-  &.signup{
-    h2{
-      height: 60px;
+    &.signup{
+      h2{
+        height: 60px;
+      }
     }
-  }
+  height: 332px;
+  width: 682.5px !important;
+  margin-top: -166px !important;
+  margin-left: -341.25px !important;
+}
+
+.auth3{
+  background-color: rgba(62, 167, 216, 0.3);
+    &.text{
+      font-weight: bold;
+      font-size: 50px;
+    }
+    &.password{
+      h2{
+        height: 60px;
+      }
+    }
+  height: 260px;
+  width: 682.5px !important;
+  margin-top: -130px !important;
+  margin-left: -341.25px !important;
+}
+
+.auth-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.blur{
+  background-color: rgba(255,255,255,0.4);
 }

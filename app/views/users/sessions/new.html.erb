@@ -1,10 +1,16 @@
-<div class='auth login w-50 p-3 m-auto'>
-  <h2 class="text text-center border-bottom border-danger border-5"><%= t('sessions.signin') %></h2>
 
-  <div class="row">
-    <div class="col-sm-6">
-      <%= render 'users/sessions/form' %>
+  <div class='auth login w-50 p-3 m-auto auth-center'>
+  <div class="blur">
+    <h2 class="text text-center border-bottom border-danger border-5"><%= t('sessions.signin') %></h2>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <%= render 'users/sessions/form' %>
+      </div>
+      <div class="col-sm-6">
+          <i class="fas fa-users fa-10x"></i>
+        </div>
     </div>
+    <div class="col-sm-6"></div>
   </div>
-  <div class="col-sm-6"></div>
 </div>
