@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
-  resources :products
-  resources :accessories
-  resources :about
-  resources :news
+  resources :products ,only: [:index, :show]
+  resources :accessories ,only: [:index, :show]
+
+  resources :about ,only: [:index]
+  #get '/about', controller: :about, action: :index
+
+  resources :news ,only: [:index, :show]
+  resources :contact ,only: [:index, :show]
 
   
   # devise_for :users
