@@ -1,6 +1,48 @@
+body{
+  background-color: rgba(226, 202, 64, 0.3);
+}
+
 section[group='banner']{
   #splide{
     height: calc(100vh * 0.8);
     background-color: rgba(216, 71, 138, 0.3);
   }
+  .splide__content{
+    width: 100%;
+    height: calc(100vh * 0.8);
+    position: relative;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+    .splide__description{
+      position: absolute;
+      background-color: rgba(52, 192, 211, 0.6);
+      color: black;
+      width: 80%;
+      left: 30px;
+      top: 10px;
+      font-weight: bold;
+      border-radius: 8px;
+      padding: 15px;
+    }
+    .second{
+      background-color: rgba(0,0,0,0.4);
+      color: whitesmoke;
+      width: 50%;
+      top: 70px;
+      left: 50px;
+    }
+    .third{
+      background-color: rgba(255, 255, 255, 0.6);
+      color: black;
+      width: 50%;
+      top: unset;
+      bottom: 60px;
+      left: unset;
+      right: 20px;
+    }
+  }
+  
+  
 }
